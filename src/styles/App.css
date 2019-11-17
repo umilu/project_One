@@ -1,4 +1,6 @@
-* {
+*,
+*:before,
+*:after {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -11,6 +13,23 @@
   min-height: 100vh;
 }
 
-main {
+.main {
+  display: flex;
   flex-grow: 1;
+  position: relative;
+}
+
+.main__page{
+  width: 100%;
+}
+
+.main__aside {
+  position: absolute;
+  width: 200px;
+  right:-200px;
+  transition: right 0.3s 0s ease-in-out;
+}
+
+.main__aside--active{
+  right: 0px;
 }

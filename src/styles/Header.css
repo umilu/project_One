@@ -1,12 +1,82 @@
 header {
   display: flex;
+  justify-content: space-between;
   width: 100%;
-  height: 30px;
+  height: 50px;
   background-color: red;
+  align-items: center;
 }
 
-.logo{
-    line-height: 30px;
-    margin-left: 50px;
-    font-weight: bold;
+.logo {
+  line-height: 50px;
+  margin-left: 30px;
+  font-weight: bold;
+  font-size: 30px;
+}
+
+.hamburger {
+  margin-right: 30px;
+  padding: 5px;
+  height: 50px;
+  width: 50px;
+  background-color: transparent;
+  border: 0;
+}
+
+.hamburger__box {
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  position: relative;
+}
+
+.hamburger__inner {
+  display: inline-block;
+  height: 3px;
+  width: 100%;
+  background-color: #ffffff;
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  border-radius: 3px;
+  transition: background-color 0.1s 0.2s ease-in-out;
+}
+
+.hamburger__inner:before {
+  display: inline-block;
+  content: "";
+  height: 3px;
+  width: 100%;
+  background-color: #ffffff;
+  position: absolute;
+  left: 0;
+  top: -10px;
+  border-radius: 3px;
+  transition: transform 0.1s 0.2s ease-in-out;
+}
+
+.hamburger__inner:after {
+  display: inline-block;
+  content: "";
+  height: 3px;
+  width: 100%;
+  background-color: #ffffff;
+  position: absolute;
+  left: 0;
+  top: 10px;
+  border-radius: 3px;
+  transition: transform 0.1s 0.2s ease-in-out;
+}
+
+.hamburger--active .hamburger__inner {
+  background-color: transparent;
+}
+
+.hamburger--active .hamburger__inner:before {
+  transform: translateY(10px) rotate(-45deg);
+}
+
+.hamburger--active .hamburger__inner:after {
+  transform: translateY(-10px) rotate(45deg);
 }
