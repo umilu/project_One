@@ -1,16 +1,16 @@
 import React from "react";
 import "../styles/Header.css";
+import { Link } from "react-router-dom";
 
 function Header(props) {
-  // const handleClick = e => {
-  //   e.currentTarget.classList.toggle('hamburger--active');
-  //   document.querySelector('.main__aside').classList.toggle('main__aside--active');
-  // };
+  const {hamburgerActive} = props;
 
   return (
     <>
-      <div className="logo">Rejsy</div>
-      <button onClick={props.handleClick} className="hamburger">
+      <Link className="logo" to="/">
+        Rejsy
+      </Link>
+      <button onClick={props.handleClick} className={hamburgerActive ? 'hamburger hamburger--active' : 'hamburger'}>
         <span className="hamburger__box">
           <span className="hamburger__inner"></span>
         </span>

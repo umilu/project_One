@@ -10,11 +10,11 @@ const pages = [
   { name: "contact", path: "/contact" }
 ];
 
-function Navigation(props) {
+function Navigation() {
   const menu = pages.map(({ name, path, exact }) => {
     return (
       <li key={name}>
-        <NavLink onClick={props.handleClick} exact={exact ? true : false} to={path}>
+        <NavLink exact={exact ? true : false} to={path}>
           {name}
         </NavLink>
       </li>
