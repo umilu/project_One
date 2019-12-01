@@ -1,11 +1,37 @@
-import React from 'react'
+import React, { Component } from "react";
+import Cruise from "../components/Cruise.js";
+import "../styles/CruisesPage.css";
 
-function Cruises() {
+class Cruises extends Component {
+  state = {cruises: []};
+
+  componentDidMount(){
+    this.fetchData();
+  }
+
+  fetchData = () => {
+    fetch("data/cruises.json")
+      .then(res => res.json())
+      .then(cruises => {
+        this.setState({cruises})
+      })
+  };
+
+  render() {
+    const cruises = [...this.state.cruises];
+    const cruisesArr = cruises.map(cruise => {
+      const {id, name, duration, countries, price, image} = cruise
+      return(
+        <Cruise key={id} name={name} duration={duration} countries={countries} price={price} image={image}/>
+      )
+    })
+
     return (
-        <div>
-            Cruises
-        </div>
-    )
+      <div>
+        {cruisesArr}
+      </div>
+    );
+  }
 }
 
-export default Cruises
+export default Cruises;

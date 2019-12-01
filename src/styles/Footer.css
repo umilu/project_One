@@ -1,7 +1,9 @@
 footer {
   width: 100%;
   height: 30px;
-  background-color: red;
+  background-color: #4f6270;
   text-align: center;
   line-height: 30px;
+  color: #c0cec4;
+  margin-top: 15px;
 }

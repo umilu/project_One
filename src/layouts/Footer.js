@@ -2,7 +2,7 @@ import React from "react";
 import "../styles/Footer.css";
 
 function Footer() {
-  return <>Strona pisana przez Macieja Grędeckiego</>;
+  return <>2019</>;
 }
 
 export default Footer;

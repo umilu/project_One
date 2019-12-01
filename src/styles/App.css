@@ -4,7 +4,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Open Sans", sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 
 .app {
@@ -18,19 +18,22 @@
   overflow: hidden;
   flex-grow: 1;
   position: relative;
+  margin-top: 50px;
 }
 
-.main__page{
+.main__page {
   width: 100%;
 }
 
 .main__aside {
   position: absolute;
   width: 200px;
-  right:-200px;
+  right: -200px;
   transition: right 0.3s 0s ease-in-out;
+  background-color: #c0cec4;
 }
 
-.main__aside--active{
+.main__aside--active {
   right: 0px;
+  box-shadow: 3px -3px 10px 0px #5b8080;
 }

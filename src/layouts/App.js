@@ -7,7 +7,7 @@ import Page from "./Page";
 import Footer from "./Footer";
 
 class App extends Component {
-  state = { hamburgerActive: false };
+  state = { hamburgerActive: false};
 
   hamburgerHandleClick = () => {
     this.setState(prevState => ({
@@ -15,30 +15,17 @@ class App extends Component {
     }));
   };
 
-  // documentHandleClick = e => {
-  //   if (this.state.hamburgerActive) {
-  //     // e.path.forEach(node => console.log(node.classList))
-  //     e.path.forEach(node => {
-  //       if (node.classList) {
-  //         if (node.classList.contains("hamburger")) {
-  //           this.hamburgerHandleClick();
-  //         }
-  //       } else {
-  //         return;
-  //       }
-  //     });
-  //   } else {
-  //     return;
-  //   }
-  // };
-
   documentHandleClick = e => {
     let toBreak = false;
     if (this.state.hamburgerActive) {
       for (let node of e.path) {
         if (node.classList) {
-          if (node.classList.contains("hamburger") || node.classList.contains("main__aside")) {
+          if (
+            node.classList.contains("hamburger") ||
+            node.classList.contains("main__aside")
+          ) {
             toBreak = true;
+            break;
           }
         }
       }
@@ -73,7 +60,7 @@ class App extends Component {
                   : "main__aside"
               }
             >
-              <Navigation />
+              <Navigation handleClick={this.hamburgerHandleClick} />
             </aside>
           </main>
           <footer>

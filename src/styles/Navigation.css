@@ -2,17 +2,14 @@
     list-style-type: none;
 }
 
-.navigation__list li{
-    border-left: 1px solid black;
-    border-bottom: 1px solid black;
-}
-
 .navigation__list a {
   display: block;
   text-decoration: none;
   padding: 10px;
   text-align: center;
   color: black;
+  color: #4F6270;
+  text-transform: uppercase;
 }
 
 .navigation__list a.active{
