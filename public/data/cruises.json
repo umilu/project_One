@@ -1,0 +1,58 @@
+[
+  {
+    "id": 1,
+    "name": "W poszukiwaniu zaginionej Atlantydy",
+    "category": "Ameryka",
+    "duration": 25,
+    "countries": 5,
+    "price": 26.999,
+    "image": "https://i.imgur.com/5PdAYkt.jpg"
+  },
+  {
+    "id": 2,
+    "name": "Wyspy Owcze",
+    "category": "Europa",
+    "duration": 7,
+    "countries": 2,
+    "price": 11.999,
+    "image": "https://i.imgur.com/xEZ1CRp.jpg"
+  },
+  {
+    "id": 3,
+    "name": "Piękne brzegi Skandynawii",
+    "category": "Europa",
+    "duration": 9,
+    "countries": 3,
+    "price": 15.999,
+    "image": "https://i.imgur.com/FejI4Bo.jpg"
+  },
+  {
+    "id": 4,
+    "name": "Szlakiem Moby Dicka",
+    "category": "Ameryka",
+    "duration": 31,
+    "countries": 6,
+    "price": 31.999,
+    "image": "https://i.imgur.com/6AXilbw.jpg"
+  },
+  {
+
+    "id": 5,
+    "name": "Lazurowe Wybrzeże",
+    "category": "Europa",
+    "duration": 12,
+    "countries": 5,
+    "price": 19.999,
+    "image": "https://i.imgur.com/n5Crq73.jpg"
+  },
+  {
+
+    "id": 6,
+    "name": "Poza Horyzontem",
+    "category": "Ameryka",
+    "duration": 53,
+    "countries": 9,
+    "price": 49.999,
+    "image": "https://i.imgur.com/BtsvAfC.jpg"
+  }
+]
