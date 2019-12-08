@@ -1,6 +1,6 @@
 [
   {
-    "id": 1,
+    "id": 0,
     "name": "W poszukiwaniu zaginionej Atlantydy",
     "category": "Ameryka",
     "duration": 25,
@@ -9,7 +9,7 @@
     "image": "https://i.imgur.com/5PdAYkt.jpg"
   },
   {
-    "id": 2,
+    "id": 1,
     "name": "Wyspy Owcze",
     "category": "Europa",
     "duration": 7,
@@ -18,7 +18,7 @@
     "image": "https://i.imgur.com/xEZ1CRp.jpg"
   },
   {
-    "id": 3,
+    "id": 2,
     "name": "Piękne brzegi Skandynawii",
     "category": "Europa",
     "duration": 9,
@@ -27,7 +27,7 @@
     "image": "https://i.imgur.com/FejI4Bo.jpg"
   },
   {
-    "id": 4,
+    "id": 3,
     "name": "Szlakiem Moby Dicka",
     "category": "Ameryka",
     "duration": 31,
@@ -37,7 +37,7 @@
   },
   {
 
-    "id": 5,
+    "id": 4,
     "name": "Lazurowe Wybrzeże",
     "category": "Europa",
     "duration": 12,
@@ -47,7 +47,7 @@
   },
   {
 
-    "id": 6,
+    "id": 5,
     "name": "Poza Horyzontem",
     "category": "Ameryka",
     "duration": 53,

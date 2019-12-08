@@ -3,34 +3,38 @@ import Cruise from "../components/Cruise.js";
 import "../styles/CruisesPage.css";
 
 class Cruises extends Component {
-  state = {cruises: []};
-
-  componentDidMount(){
-    this.fetchData();
-  }
+  state = { cruises: [] };
 
   fetchData = () => {
     fetch("data/cruises.json")
       .then(res => res.json())
       .then(cruises => {
-        this.setState({cruises})
-      })
+        this.setState({ cruises });
+      });
   };
+
+  componentDidMount() {
+    this.fetchData();
+  }
 
   render() {
     const cruises = [...this.state.cruises];
     const cruisesArr = cruises.map(cruise => {
-      const {id, name, duration, countries, price, image} = cruise
-      return(
-        <Cruise key={id} name={name} duration={duration} countries={countries} price={price} image={image}/>
-      )
-    })
+      const { id, name, duration, countries, price, image } = cruise;
+      return (
+        <Cruise
+          key={id}
+          id={id}
+          name={name}
+          duration={duration}
+          countries={countries}
+          price={price}
+          image={image}
+        />
+      );
+    });
 
-    return (
-      <div>
-        {cruisesArr}
-      </div>
-    );
+    return <div>{cruisesArr}</div>;
   }
 }
 
