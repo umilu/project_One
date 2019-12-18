@@ -26,7 +26,7 @@
 }
 
 .main__aside {
-  position: absolute;
+  position: fixed;
   width: 200px;
   right: -200px;
   transition: right 0.3s 0s ease-in-out;

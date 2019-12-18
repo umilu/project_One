@@ -6,7 +6,30 @@
     "duration": 25,
     "countries": 5,
     "price": 26.999,
-    "image": "https://i.imgur.com/5PdAYkt.jpg"
+    "image": "https://i.imgur.com/5PdAYkt.jpg",
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste voluptas cumque, amet odio possimus quia quo et, quisquam dolor, ipsam exercitationem. Omnis, quae nobis. Fugit laborum optio eaque ipsa aliquam?Maiores reiciendis recusandae tempore, excepturi placeat, ea quaerat temporibus voluptatibus praesentium iste aliquid sequi ducimus cupiditate facilis magnam corrupti deserunt fuga quisquam soluta odio amet, rerum voluptates. Ullam, inventore sequi?",
+    "dates": [
+      {
+        "departure": "01-01-2021",
+        "homecome": "26-01-2021",
+        "seaport": "Gdańsk"
+      },
+      {
+        "departure": "02-02-2021",
+        "homecome": "27-02-2021",
+        "seaport": "Gdańsk"
+      },
+      {
+        "departure": "03-03-2021",
+        "homecome": "28-03-2021",
+        "seaport": "Gdańsk"
+      },
+      {
+        "departure": "04-04-2021",
+        "homecome": "29-04-2021",
+        "seaport": "Gdańsk"
+      }
+    ]
   },
   {
     "id": 1,
@@ -15,7 +38,30 @@
     "duration": 7,
     "countries": 2,
     "price": 11.999,
-    "image": "https://i.imgur.com/xEZ1CRp.jpg"
+    "image": "https://i.imgur.com/xEZ1CRp.jpg",
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste voluptas cumque, amet odio possimus quia quo et, quisquam dolor, ipsam exercitationem. Omnis, quae nobis. Fugit laborum optio eaque ipsa aliquam?Maiores reiciendis recusandae tempore, excepturi placeat, ea quaerat temporibus voluptatibus praesentium iste aliquid sequi ducimus cupiditate facilis magnam corrupti deserunt fuga quisquam soluta odio amet, rerum voluptates. Ullam, inventore sequi?",
+    "dates": [
+      {
+        "departure": "01-01-2021",
+        "homecome": "08-01-2021",
+        "seaport": "Gdańsk"
+      },
+      {
+        "departure": "02-02-2021",
+        "homecome": "09-02-2021",
+        "seaport": "Gdańsk"
+      },
+      {
+        "departure": "03-03-2021",
+        "homecome": "10-03-2021",
+        "seaport": "Gdańsk"
+      },
+      {
+        "departure": "11-04-2021",
+        "homecome": "29-04-2021",
+        "seaport": "Gdańsk"
+      }
+    ]
   },
   {
     "id": 2,
@@ -24,35 +70,125 @@
     "duration": 9,
     "countries": 3,
     "price": 15.999,
-    "image": "https://i.imgur.com/FejI4Bo.jpg"
+    "image": "https://i.imgur.com/FejI4Bo.jpg",
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste voluptas cumque, amet odio possimus quia quo et, quisquam dolor, ipsam exercitationem. Omnis, quae nobis. Fugit laborum optio eaque ipsa aliquam?Maiores reiciendis recusandae tempore, excepturi placeat, ea quaerat temporibus voluptatibus praesentium iste aliquid sequi ducimus cupiditate facilis magnam corrupti deserunt fuga quisquam soluta odio amet, rerum voluptates. Ullam, inventore sequi?",
+    "dates": [
+      {
+        "departure": "01-01-2021",
+        "homecome": "10-01-2021",
+        "seaport": "Gdańsk"
+      },
+      {
+        "departure": "02-02-2021",
+        "homecome": "11-02-2021",
+        "seaport": "Gdańsk"
+      },
+      {
+        "departure": "03-03-2021",
+        "homecome": "12-03-2021",
+        "seaport": "Gdańsk"
+      },
+      {
+        "departure": "13-04-2021",
+        "homecome": "13-04-2021",
+        "seaport": "Gdańsk"
+      }
+    ]
   },
   {
     "id": 3,
     "name": "Szlakiem Moby Dicka",
     "category": "Ameryka",
-    "duration": 31,
+    "duration": 26,
     "countries": 6,
     "price": 31.999,
-    "image": "https://i.imgur.com/6AXilbw.jpg"
+    "image": "https://i.imgur.com/6AXilbw.jpg",
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste voluptas cumque, amet odio possimus quia quo et, quisquam dolor, ipsam exercitationem. Omnis, quae nobis. Fugit laborum optio eaque ipsa aliquam?Maiores reiciendis recusandae tempore, excepturi placeat, ea quaerat temporibus voluptatibus praesentium iste aliquid sequi ducimus cupiditate facilis magnam corrupti deserunt fuga quisquam soluta odio amet, rerum voluptates. Ullam, inventore sequi?",
+    "dates": [
+      {
+        "departure": "01-01-2021",
+        "homecome": "27-01-2021",
+        "seaport": "Gdańsk"
+      },
+      {
+        "departure": "02-02-2021",
+        "homecome": "28-02-2021",
+        "seaport": "Gdańsk"
+      },
+      {
+        "departure": "03-03-2021",
+        "homecome": "29-03-2021",
+        "seaport": "Gdańsk"
+      },
+      {
+        "departure": "04-04-2021",
+        "homecome": "30-04-2021",
+        "seaport": "Gdańsk"
+      }
+    ]
   },
   {
-
     "id": 4,
     "name": "Lazurowe Wybrzeże",
     "category": "Europa",
     "duration": 12,
     "countries": 5,
     "price": 19.999,
-    "image": "https://i.imgur.com/n5Crq73.jpg"
+    "image": "https://i.imgur.com/n5Crq73.jpg",
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste voluptas cumque, amet odio possimus quia quo et, quisquam dolor, ipsam exercitationem. Omnis, quae nobis. Fugit laborum optio eaque ipsa aliquam?Maiores reiciendis recusandae tempore, excepturi placeat, ea quaerat temporibus voluptatibus praesentium iste aliquid sequi ducimus cupiditate facilis magnam corrupti deserunt fuga quisquam soluta odio amet, rerum voluptates. Ullam, inventore sequi?",
+    "dates": [
+      {
+        "departure": "01-01-2021",
+        "homecome": "13-01-2021",
+        "seaport": "Gdańsk"
+      },
+      {
+        "departure": "02-02-2021",
+        "homecome": "14-02-2021",
+        "seaport": "Gdańsk"
+      },
+      {
+        "departure": "03-03-2021",
+        "homecome": "15-03-2021",
+        "seaport": "Gdańsk"
+      },
+      {
+        "departure": "04-04-2021",
+        "homecome": "16-04-2021",
+        "seaport": "Gdańsk"
+      }
+    ]
   },
   {
-
     "id": 5,
     "name": "Poza Horyzontem",
     "category": "Ameryka",
     "duration": 53,
     "countries": 9,
     "price": 49.999,
-    "image": "https://i.imgur.com/BtsvAfC.jpg"
+    "image": "https://i.imgur.com/BtsvAfC.jpg",
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste voluptas cumque, amet odio possimus quia quo et, quisquam dolor, ipsam exercitationem. Omnis, quae nobis. Fugit laborum optio eaque ipsa aliquam?Maiores reiciendis recusandae tempore, excepturi placeat, ea quaerat temporibus voluptatibus praesentium iste aliquid sequi ducimus cupiditate facilis magnam corrupti deserunt fuga quisquam soluta odio amet, rerum voluptates. Ullam, inventore sequi?",
+    "dates": [
+      {
+        "departure": "01-01-2021",
+        "homecome": "23-02-2021",
+        "seaport": "Gdańsk"
+      },
+      {
+        "departure": "02-02-2021",
+        "homecome": "24-03-2021",
+        "seaport": "Gdańsk"
+      },
+      {
+        "departure": "03-03-2021",
+        "homecome": "25-04-2021",
+        "seaport": "Gdańsk"
+      },
+      {
+        "departure": "29-04-2021",
+        "homecome": "30-05-2021",
+        "seaport": "Gdańsk"
+      }
+    ]
   }
 ]

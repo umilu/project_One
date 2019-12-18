@@ -38,4 +38,5 @@ class Cruises extends Component {
   }
 }
 
+
 export default Cruises;
