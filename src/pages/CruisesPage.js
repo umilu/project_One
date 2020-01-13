@@ -23,7 +23,7 @@ class Cruises extends Component {
       const { id, name, duration, countries, price, image } = cruise;
       return (
         <Cruise
-          key={id}
+          key={`${id}${name}`}
           id={id}
           name={name}
           duration={duration}
@@ -34,9 +34,8 @@ class Cruises extends Component {
       );
     });
 
-    return <div>{cruisesArr}</div>;
+    return <>{cruisesArr}</>;
   }
 }
-
 
 export default Cruises;

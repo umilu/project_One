@@ -2,7 +2,7 @@ import React from "react";
 import "../styles/Footer.css";
 
 function Footer() {
-  return <>2019</>;
+  return <>{new Date().getFullYear()}</>;
 }
 
 export default Footer;

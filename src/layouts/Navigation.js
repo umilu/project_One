@@ -3,11 +3,11 @@ import "../styles/Navigation.css";
 import { NavLink } from "react-router-dom";
 
 const pages = [
-  { name: "home", path: "/", exact: true },
-  { name: "cruises", path: "/cruises" },
-  { name: "ships", path: "/ships" },
-  { name: "sale", path: "/sale" },
-  { name: "contact", path: "/contact" }
+  { name: "start", path: "/", exact: true },
+  { name: "rejsy", path: "/cruises" },
+  { name: "statki", path: "/ships" },
+  { name: "wyprzedaż", path: "/sale" },
+  { name: "kontakt", path: "/contact" }
 ];
 
 function Navigation(props) {

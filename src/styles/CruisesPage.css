@@ -40,7 +40,8 @@
   width: 120px;
   margin: 0 auto;
   border: none;
-  background-color: #4f6270;
+  background-color: #e6ac0e;
+  font-weight: bold;
 }
 
 .cruise__button a {

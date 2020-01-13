@@ -76,7 +76,7 @@ class CruisePage extends Component {
   };
 
   render() {
-    return <div>{this.state.cruises ? this.checkCruise() : null}</div>;
+    return <>{this.state.cruises ? this.checkCruise() : null}</>;
   }
 }
 
